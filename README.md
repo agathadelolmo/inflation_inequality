@@ -12,7 +12,7 @@ Identifies the mechanism behind this gap: since price inflation is common to all
 Quantifies the aggregation bias: comparing results at the detailed (COICOP-4) versus aggregate (COICOP-1) level of product classification, following the approach of Jaravel (2021).
 Simulates the distributional effect of a real fiscal policy: the temporary VAT reduction on basic food items (Real Decreto-ley 20/2022 and its subsequent extensions), building a counterfactual scenario of what inflation would have looked like without the measure.
 Repository contents
-ESP_pipeline.R — Full data-cleaning and analysis pipeline: reading raw EPF/IPC files, harmonizing COICOP classifications across survey waves, constructing household-level inflation, building expenditure quintiles, running the econometric models, and simulating the VAT policy counterfactual.
+ESP_pipeline_limpio.R - Full data-cleaning and analysis pipeline: reading raw EPF/IPC files, harmonizing COICOP classifications across survey waves, constructing household-level inflation, building expenditure quintiles, running the econometric models, and simulating the VAT policy counterfactual.
 Data availability
 
 The raw microdata used in this project (EPF and IPC files from the INE) are not included in this repository due to their size and licensing terms. Some files require direct request to the INE; others are derived/processed extracts prepared specifically for this thesis.
