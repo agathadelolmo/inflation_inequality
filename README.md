@@ -6,12 +6,17 @@ What this project does
 
 The thesis studies how inflation affects Spanish households differently depending on their level of spending, using household-level microdata from the Encuesta de Presupuestos Familiares (EPF) and detailed price indices from the Índice de Precios de Consumo (IPC), both published by Spain's National Statistics Institute (INE). Specifically, the project:
 
-Measures household-specific inflation for the period 2006-2025, combining each household's own spending basket (at the most detailed product classification available, COICOP-4) with the corresponding category-level inflation rates, following a Laspeyres-type approach.
-Documents the inflation gap between the lowest- and highest-spending quintiles, and tests its statistical significance with fixed-effects regression models.
-Identifies the mechanism behind this gap: since price inflation is common to all households within a category, differences arise entirely from differences in consumption basket composition (Housing and Food driving the gap for lower-spending households; Transportation working in the opposite direction).
+- Measures household-specific inflation for the period 2006-2025, combining each household's own spending basket (at the most detailed product classification available, COICOP-4) with the corresponding category-level inflation rates, following a Laspeyres-type approach.
+
+- Documents the inflation gap between the lowest- and highest-spending quintiles, and tests its statistical significance with fixed-effects regression models.
+
+- Identifies the mechanism behind this gap: since price inflation is common to all households within a category, differences arise entirely from differences in consumption basket composition (Housing and Food driving the gap for lower-spending households; Transportation working in the opposite direction).
 Quantifies the aggregation bias: comparing results at the detailed (COICOP-4) versus aggregate (COICOP-1) level of product classification, following the approach of Jaravel (2021).
-Simulates the distributional effect of a real fiscal policy: the temporary VAT reduction on basic food items (Real Decreto-ley 20/2022 and its subsequent extensions), building a counterfactual scenario of what inflation would have looked like without the measure.
+
+- Simulates the distributional effect of a real fiscal policy: the temporary VAT reduction on basic food items (Real Decreto-ley 20/2022 and its subsequent extensions), building a counterfactual scenario of what inflation would have looked like without the measure.
+
 Repository contents
+
 ESP_pipeline_limpio.R - Full data-cleaning and analysis pipeline: reading raw EPF/IPC files, harmonizing COICOP classifications across survey waves, constructing household-level inflation, building expenditure quintiles, running the econometric models, and simulating the VAT policy counterfactual.
 Data availability
 
